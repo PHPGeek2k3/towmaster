@@ -1,5 +1,189 @@
 [
     {
+        "name": "arrilot/laravel-widgets",
+        "version": "3.12",
+        "version_normalized": "3.12.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/arrilot/laravel-widgets.git",
+            "reference": "a1007a077114e6616009d2776a6a664e7425a047"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/arrilot/laravel-widgets/zipball/a1007a077114e6616009d2776a6a664e7425a047",
+            "reference": "a1007a077114e6616009d2776a6a664e7425a047",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/cache": ">=5.5",
+            "illuminate/console": ">=5.5",
+            "illuminate/container": ">=5.5",
+            "illuminate/contracts": ">=5.5",
+            "illuminate/support": ">=5.5",
+            "illuminate/view": ">=5.5",
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~6.0"
+        },
+        "time": "2018-04-15T19:59:08+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Arrilot\\Widgets\\ServiceProvider"
+                ],
+                "aliases": {
+                    "Widget": "Arrilot\\Widgets\\Facade",
+                    "AsyncWidget": "Arrilot\\Widgets\\AsyncFacade"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Arrilot\\Widgets\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nekrasov Ilya",
+                "email": "nekrasov.ilya90@gmail.com"
+            }
+        ],
+        "description": "A powerful alternative to view composers. Asynchronous widgets, reloadable widgets, console generator, caching - everything you can think of.",
+        "homepage": "https://github.com/arrilot/laravel-widgets",
+        "keywords": [
+            "ajax",
+            "laravel",
+            "widgets"
+        ]
+    },
+    {
+        "name": "balping/json-raw-encoder",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/balping/json-raw-encoder.git",
+            "reference": "c404b7fc0e04ddf5d298e53105c5fc306f523195"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/balping/json-raw-encoder/zipball/c404b7fc0e04ddf5d298e53105c5fc306f523195",
+            "reference": "c404b7fc0e04ddf5d298e53105c5fc306f523195",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7.1"
+        },
+        "time": "2018-05-04T15:38:02+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Balping\\JsonRaw\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0-only"
+        ],
+        "authors": [
+            {
+                "name": "Balázs Dura-Kovács"
+            }
+        ],
+        "description": "Encode arrays to json with raw JS objects (eg. callbacks) in them",
+        "keywords": [
+            "callback",
+            "encode",
+            "json"
+        ]
+    },
+    {
+        "name": "barryvdh/laravel-ide-helper",
+        "version": "v2.4.3",
+        "version_normalized": "2.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/barryvdh/laravel-ide-helper.git",
+            "reference": "5c304db44fba8e9c4aa0c09739e59f7be7736fdd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/5c304db44fba8e9c4aa0c09739e59f7be7736fdd",
+            "reference": "5c304db44fba8e9c4aa0c09739e59f7be7736fdd",
+            "shasum": ""
+        },
+        "require": {
+            "barryvdh/reflection-docblock": "^2.0.4",
+            "illuminate/console": "^5.0,<5.7",
+            "illuminate/filesystem": "^5.0,<5.7",
+            "illuminate/support": "^5.0,<5.7",
+            "php": ">=5.4.0",
+            "symfony/class-loader": "^2.3|^3.0"
+        },
+        "require-dev": {
+            "doctrine/dbal": "~2.3",
+            "illuminate/config": "^5.0,<5.7",
+            "illuminate/view": "^5.0,<5.7",
+            "phpunit/phpunit": "4.*",
+            "scrutinizer/ocular": "~1.1",
+            "squizlabs/php_codesniffer": "~2.3"
+        },
+        "suggest": {
+            "doctrine/dbal": "Load information from the database about models for phpdocs (~2.3)"
+        },
+        "time": "2018-02-08T07:56:07+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.3-dev"
+            },
+            "laravel": {
+                "providers": [
+                    "Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Barryvdh\\LaravelIdeHelper\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Barry vd. Heuvel",
+                "email": "barryvdh@gmail.com"
+            }
+        ],
+        "description": "Laravel IDE Helper, generates correct PHPDocs for all Facade classes, to improve auto-completion.",
+        "keywords": [
+            "autocomplete",
+            "codeintel",
+            "helper",
+            "ide",
+            "laravel",
+            "netbeans",
+            "phpdoc",
+            "phpstorm",
+            "sublime"
+        ]
+    },
+    {
         "name": "barryvdh/laravel-snappy",
         "version": "v0.4.1",
         "version_normalized": "0.4.1.0",
@@ -63,6 +247,286 @@
         ]
     },
     {
+        "name": "barryvdh/reflection-docblock",
+        "version": "v2.0.4",
+        "version_normalized": "2.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/barryvdh/ReflectionDocBlock.git",
+            "reference": "3dcbd98b5d9384a5357266efba8fd29884458e5c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/barryvdh/ReflectionDocBlock/zipball/3dcbd98b5d9384a5357266efba8fd29884458e5c",
+            "reference": "3dcbd98b5d9384a5357266efba8fd29884458e5c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0,<4.5"
+        },
+        "suggest": {
+            "dflydev/markdown": "~1.0",
+            "erusev/parsedown": "~1.0"
+        },
+        "time": "2016-06-13T19:28:20+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Barryvdh": [
+                    "src/"
+                ]
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mike van Riel",
+                "email": "mike.vanriel@naenius.com"
+            }
+        ]
+    },
+    {
+        "name": "bnbwebexpertise/laravel-attachments",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bnbwebexpertise/laravel-attachments.git",
+            "reference": "4c03d4f9f436ca6302e572646562213210d2bca8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bnbwebexpertise/laravel-attachments/zipball/4c03d4f9f436ca6302e572646562213210d2bca8",
+            "reference": "4c03d4f9f436ca6302e572646562213210d2bca8",
+            "shasum": ""
+        },
+        "require": {
+            "bnbwebexpertise/php-uuid": ">=0.0.2",
+            "doctrine/dbal": "~2.5",
+            "illuminate/console": "5.6.x|5.5.x",
+            "illuminate/database": "5.6.x|5.5.x",
+            "illuminate/encryption": "5.6.x|5.5.x",
+            "illuminate/routing": "5.6.x|5.5.x",
+            "illuminate/support": "5.6.x|5.5.x",
+            "nesbot/carbon": "~1.20",
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "laravel/framework": "5.6.x|5.5.x"
+        },
+        "time": "2018-03-05T04:20:49+00:00",
+        "type": "package",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.x-dev",
+                "dev-L5.4": "0.x-dev"
+            },
+            "laravel": {
+                "providers": [
+                    "Bnb\\Laravel\\Attachments\\AttachmentsServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Bnb\\Laravel\\Attachments\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "B&B Web Expertise",
+                "email": "support@bnb.re"
+            }
+        ],
+        "description": "Laravel package to link file attachment to models"
+    },
+    {
+        "name": "bnbwebexpertise/php-uuid",
+        "version": "0.0.3",
+        "version_normalized": "0.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bnbwebexpertise/php-uuid.git",
+            "reference": "d60bf8054db1d062f2fc79c43af0ff499a49fbfa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bnbwebexpertise/php-uuid/zipball/d60bf8054db1d062f2fc79c43af0ff499a49fbfa",
+            "reference": "d60bf8054db1d062f2fc79c43af0ff499a49fbfa",
+            "shasum": ""
+        },
+        "require": {
+            "ext-bcmath": "*",
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.0"
+        },
+        "time": "2017-11-18T13:18:41+00:00",
+        "type": "package",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Bnb\\Uuid\\": "src/"
+            },
+            "files": [
+                "src/helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "B&B Web Expertise",
+                "email": "support@bnb.re"
+            }
+        ],
+        "description": "UUID helpers"
+    },
+    {
+        "name": "consoletvs/charts",
+        "version": "6.2.1",
+        "version_normalized": "6.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ConsoleTVs/Charts.git",
+            "reference": "944ef5d966b1d5f615ff6901acc8545e0c8c607a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ConsoleTVs/Charts/zipball/944ef5d966b1d5f615ff6901acc8545e0c8c607a",
+            "reference": "944ef5d966b1d5f615ff6901acc8545e0c8c607a",
+            "shasum": ""
+        },
+        "require": {
+            "balping/json-raw-encoder": "^1.0",
+            "illuminate/support": "5.*",
+            "php": ">=7.0"
+        },
+        "time": "2018-06-14T16:02:30+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "ConsoleTVs\\Charts\\ChartsServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ConsoleTVs\\Charts\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Èrik Campobadal Forés",
+                "email": "soc@erik.cat"
+            }
+        ],
+        "description": "The laravel charting package"
+    },
+    {
+        "name": "cybercog/laravel-ownership",
+        "version": "5.1.0",
+        "version_normalized": "5.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cybercog/laravel-ownership.git",
+            "reference": "c5c7180a18091461a69334f910e4f5281f64df6a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cybercog/laravel-ownership/zipball/c5c7180a18091461a69334f910e4f5281f64df6a",
+            "reference": "c5c7180a18091461a69334f910e4f5281f64df6a",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/database": "~5.2|~5.3|~5.4|~5.5|~5.6",
+            "illuminate/support": "~5.2|~5.3|~5.4|~5.5|~5.6",
+            "php": "^5.6|^7.0"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.10",
+            "orchestra/database": "~3.5.0|~3.6.0",
+            "orchestra/testbench": "~3.5.0|~3.6.0",
+            "phpunit/phpunit": "^6.0|^7.0"
+        },
+        "time": "2018-02-08T15:33:26+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Cog\\Laravel\\Ownership\\Providers\\OwnershipServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Cog\\Contracts\\Ownership\\": "contracts/",
+                "Cog\\Laravel\\Ownership\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Anton Komarev",
+                "email": "a.komarev@cybercog.su",
+                "homepage": "http://ell.folio.su",
+                "role": "Developer"
+            }
+        ],
+        "description": "Laravel Ownership simplify management of Eloquent model's owner.",
+        "homepage": "https://github.com/cybercog/laravel-ownership",
+        "keywords": [
+            "author",
+            "cog",
+            "copyright",
+            "creator",
+            "cybercog",
+            "domain",
+            "eloquent",
+            "laravel",
+            "maker",
+            "master",
+            "morph",
+            "ownable",
+            "owned",
+            "owner",
+            "ownership",
+            "polymorphic",
+            "proprietor",
+            "trait"
+        ]
+    },
+    {
         "name": "dnoegel/php-xdg-base-dir",
         "version": "0.1",
         "version_normalized": "0.1.0.0",
@@ -96,6 +560,239 @@
             "MIT"
         ],
         "description": "implementation of xdg base directory specification for php"
+    },
+    {
+        "name": "doctrine/cache",
+        "version": "v1.7.1",
+        "version_normalized": "1.7.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/cache.git",
+            "reference": "b3217d58609e9c8e661cd41357a54d926c4a2a1a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/cache/zipball/b3217d58609e9c8e661cd41357a54d926c4a2a1a",
+            "reference": "b3217d58609e9c8e661cd41357a54d926c4a2a1a",
+            "shasum": ""
+        },
+        "require": {
+            "php": "~7.1"
+        },
+        "conflict": {
+            "doctrine/common": ">2.2,<2.4"
+        },
+        "require-dev": {
+            "alcaeus/mongo-php-adapter": "^1.1",
+            "mongodb/mongodb": "^1.1",
+            "phpunit/phpunit": "^5.7",
+            "predis/predis": "~1.0"
+        },
+        "suggest": {
+            "alcaeus/mongo-php-adapter": "Required to use legacy MongoDB driver"
+        },
+        "time": "2017-08-25T07:02:50+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.7.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Caching library offering an object-oriented API for many cache backends",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "cache",
+            "caching"
+        ]
+    },
+    {
+        "name": "doctrine/dbal",
+        "version": "v2.8.0",
+        "version_normalized": "2.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/dbal.git",
+            "reference": "5140a64c08b4b607b9bedaae0cedd26f04a0e621"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/dbal/zipball/5140a64c08b4b607b9bedaae0cedd26f04a0e621",
+            "reference": "5140a64c08b4b607b9bedaae0cedd26f04a0e621",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/cache": "^1.0",
+            "doctrine/event-manager": "^1.0",
+            "ext-pdo": "*",
+            "php": "^7.1"
+        },
+        "require-dev": {
+            "doctrine/coding-standard": "^4.0",
+            "jetbrains/phpstorm-stubs": "^2018.1.2",
+            "phpstan/phpstan": "^0.10.1",
+            "phpunit/phpunit": "^7.1.2",
+            "phpunit/phpunit-mock-objects": "!=3.2.4,!=3.2.5",
+            "symfony/console": "^2.0.5|^3.0|^4.0",
+            "symfony/phpunit-bridge": "^3.4.5|^4.0.5"
+        },
+        "suggest": {
+            "symfony/console": "For helpful console commands such as SQL execution and import of files."
+        },
+        "time": "2018-07-13T03:16:35+00:00",
+        "bin": [
+            "bin/doctrine-dbal"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.8.x-dev",
+                "dev-develop": "3.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\DBAL\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            }
+        ],
+        "description": "Database Abstraction Layer",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "database",
+            "dbal",
+            "persistence",
+            "queryobject"
+        ]
+    },
+    {
+        "name": "doctrine/event-manager",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/event-manager.git",
+            "reference": "a520bc093a0170feeb6b14e9d83f3a14452e64b3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/event-manager/zipball/a520bc093a0170feeb6b14e9d83f3a14452e64b3",
+            "reference": "a520bc093a0170feeb6b14e9d83f3a14452e64b3",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1"
+        },
+        "conflict": {
+            "doctrine/common": "<2.9@dev"
+        },
+        "require-dev": {
+            "doctrine/coding-standard": "^4.0",
+            "phpunit/phpunit": "^7.0"
+        },
+        "time": "2018-06-11T11:59:03+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Doctrine\\Common\\": "lib/Doctrine/Common"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            },
+            {
+                "name": "Marco Pivetta",
+                "email": "ocramius@gmail.com"
+            }
+        ],
+        "description": "Doctrine Event Manager component",
+        "homepage": "https://www.doctrine-project.org/projects/event-manager.html",
+        "keywords": [
+            "event",
+            "eventdispatcher",
+            "eventmanager"
+        ]
     },
     {
         "name": "doctrine/inflector",
@@ -330,6 +1027,59 @@
         ]
     },
     {
+        "name": "edvinaskrucas/settings",
+        "version": "2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/edvinaskrucas/settings.git",
+            "reference": "23f2a912ca8f5b6ba550721a6fc0e6d1acaa9022"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/edvinaskrucas/settings/zipball/23f2a912ca8f5b6ba550721a6fc0e6d1acaa9022",
+            "reference": "23f2a912ca8f5b6ba550721a6fc0e6d1acaa9022",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/console": "^5.2",
+            "illuminate/database": "^5.2",
+            "illuminate/filesystem": "^5.2",
+            "illuminate/support": "^5.2",
+            "php": "^5.5|^7.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "0.9.*"
+        },
+        "time": "2016-01-19T13:50:39+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Krucas\\Settings\\": "src/"
+            },
+            "files": [
+                "src/helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Edvinas Kručas",
+                "email": "edv.krucas@gmail.com"
+            }
+        ],
+        "description": "Persistent settings package for Laravel framework.",
+        "keywords": [
+            "Settings",
+            "laravel",
+            "persistent settings"
+        ]
+    },
+    {
         "name": "egulias/email-validator",
         "version": "2.1.4",
         "version_normalized": "2.1.4.0",
@@ -434,6 +1184,57 @@
         "keywords": [
             "markdown",
             "parser"
+        ]
+    },
+    {
+        "name": "fico7489/laravel-pivot",
+        "version": "2.2.6",
+        "version_normalized": "2.2.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fico7489/laravel-pivot.git",
+            "reference": "6c374f0c9d62891aafa75b70ed663943f326299a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fico7489/laravel-pivot/zipball/6c374f0c9d62891aafa75b70ed663943f326299a",
+            "reference": "6c374f0c9d62891aafa75b70ed663943f326299a",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/database": "5.6.*"
+        },
+        "require-dev": {
+            "orchestra/testbench": "~3.6.0"
+        },
+        "time": "2018-03-08T16:03:54+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Fico7489\\Laravel\\Pivot\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Filip Horvat",
+                "email": "filip.horvat@am2studio.hr",
+                "homepage": "http://am2studio.hr",
+                "role": "Developer"
+            }
+        ],
+        "description": "This package introduces new eloquent events for sync(), attach(), detach() or updateExistingPivot() methods on BelongsToMany relation.",
+        "homepage": "https://github.com/fico7489/laravel-pivot",
+        "keywords": [
+            "eloquent events",
+            "eloquent extra events",
+            "laravel BelongsToMany events",
+            "laravel pivot events",
+            "laravel sync events"
         ]
     },
     {
@@ -608,6 +1409,155 @@
         ]
     },
     {
+        "name": "genealabs/laravel-model-caching",
+        "version": "0.2.63",
+        "version_normalized": "0.2.63.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/GeneaLabs/laravel-model-caching.git",
+            "reference": "a13c2dff5173af28786c9351edbf6c02a5431cac"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/GeneaLabs/laravel-model-caching/zipball/a13c2dff5173af28786c9351edbf6c02a5431cac",
+            "reference": "a13c2dff5173af28786c9351edbf6c02a5431cac",
+            "shasum": ""
+        },
+        "require": {
+            "fico7489/laravel-pivot": "*",
+            "illuminate/cache": "5.4 - 5.6",
+            "illuminate/config": "5.4 - 5.6",
+            "illuminate/console": "5.4 - 5.6",
+            "illuminate/database": "5.4 - 5.6",
+            "illuminate/support": "5.4 - 5.6",
+            "php": ">=7.1.3"
+        },
+        "require-dev": {
+            "codedungeon/phpunit-result-printer": "*",
+            "fzaninotto/faker": "*",
+            "mockery/mockery": "*",
+            "orchestra/database": "3.6.*",
+            "orchestra/testbench": "3.6.*",
+            "orchestra/testbench-browser-kit": "3.6.*",
+            "php-coveralls/php-coveralls": "*",
+            "phpmd/phpmd": "*",
+            "phpunit/phpunit": "7.*",
+            "predis/predis": "*",
+            "sebastian/phpcpd": "*",
+            "symfony/thanks": "*"
+        },
+        "time": "2018-06-09T17:56:23+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "GeneaLabs\\LaravelModelCaching\\Providers\\Service"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GeneaLabs\\LaravelModelCaching\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mike Bronner",
+                "email": "hello@genealabs.com"
+            }
+        ],
+        "description": "Automatic caching for Eloquent models."
+    },
+    {
+        "name": "h4cc/wkhtmltoimage-amd64",
+        "version": "0.12.4",
+        "version_normalized": "0.12.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/h4cc/wkhtmltoimage-amd64.git",
+            "reference": "c4e33f635207af89a704205b8902fb5715ca88be"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/h4cc/wkhtmltoimage-amd64/zipball/c4e33f635207af89a704205b8902fb5715ca88be",
+            "reference": "c4e33f635207af89a704205b8902fb5715ca88be",
+            "shasum": ""
+        },
+        "time": "2018-01-15T07:23:40+00:00",
+        "bin": [
+            "bin/wkhtmltoimage-amd64"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL Version 3"
+        ],
+        "authors": [
+            {
+                "name": "Julius Beckmann",
+                "email": "github@h4cc.de"
+            }
+        ],
+        "description": "Convert html to image using webkit (qtwebkit). Static linked linux binary for amd64 systems.",
+        "homepage": "http://wkhtmltopdf.org/",
+        "keywords": [
+            "binary",
+            "convert",
+            "image",
+            "snapshot",
+            "thumbnail",
+            "wkhtmltoimage"
+        ]
+    },
+    {
+        "name": "h4cc/wkhtmltoimage-i386",
+        "version": "0.12.4",
+        "version_normalized": "0.12.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/h4cc/wkhtmltoimage-i386.git",
+            "reference": "64f7a1c7d1e42d6741e22a080206c00c4899e88b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/h4cc/wkhtmltoimage-i386/zipball/64f7a1c7d1e42d6741e22a080206c00c4899e88b",
+            "reference": "64f7a1c7d1e42d6741e22a080206c00c4899e88b",
+            "shasum": ""
+        },
+        "time": "2018-01-15T07:28:21+00:00",
+        "bin": [
+            "bin/wkhtmltoimage-i386"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL Version 3"
+        ],
+        "authors": [
+            {
+                "name": "Julius Beckmann",
+                "email": "github@h4cc.de"
+            }
+        ],
+        "description": "Convert html to image using webkit (qtwebkit). Static linked linux binary for i386 systems.",
+        "homepage": "http://wkhtmltopdf.org/",
+        "keywords": [
+            "binary",
+            "convert",
+            "image",
+            "snapshot",
+            "thumbnail",
+            "wkhtmltoimage"
+        ]
+    },
+    {
         "name": "h4cc/wkhtmltopdf-amd64",
         "version": "0.12.4",
         "version_normalized": "0.12.4.0",
@@ -644,6 +1594,48 @@
             }
         ],
         "description": "Convert html to pdf using webkit (qtwebkit). Static linked linux binary for amd64 systems.",
+        "homepage": "http://wkhtmltopdf.org/",
+        "keywords": [
+            "binary",
+            "convert",
+            "pdf",
+            "snapshot",
+            "thumbnail",
+            "wkhtmltopdf"
+        ]
+    },
+    {
+        "name": "h4cc/wkhtmltopdf-i386",
+        "version": "0.12.4",
+        "version_normalized": "0.12.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/h4cc/wkhtmltopdf-i386.git",
+            "reference": "da14486ec8eba1873b026b56126ed02d2f2ae5e3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/h4cc/wkhtmltopdf-i386/zipball/da14486ec8eba1873b026b56126ed02d2f2ae5e3",
+            "reference": "da14486ec8eba1873b026b56126ed02d2f2ae5e3",
+            "shasum": ""
+        },
+        "time": "2018-01-15T07:18:15+00:00",
+        "bin": [
+            "bin/wkhtmltopdf-i386"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL Version 3"
+        ],
+        "authors": [
+            {
+                "name": "Julius Beckmann",
+                "email": "github@h4cc.de"
+            }
+        ],
+        "description": "Convert html to pdf using webkit (qtwebkit). Static linked linux binary for i386 systems.",
         "homepage": "http://wkhtmltopdf.org/",
         "keywords": [
             "binary",
@@ -796,6 +1788,61 @@
         ]
     },
     {
+        "name": "josegonzalez/dotenv",
+        "version": "3.2.0",
+        "version_normalized": "3.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/josegonzalez/php-dotenv.git",
+            "reference": "f19174d9d7213a6c20e8e5e268aa7dd042d821ca"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/josegonzalez/php-dotenv/zipball/f19174d9d7213a6c20e8e5e268aa7dd042d821ca",
+            "reference": "f19174d9d7213a6c20e8e5e268aa7dd042d821ca",
+            "shasum": ""
+        },
+        "require": {
+            "m1/env": "2.*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "php-mock/php-mock-phpunit": "^1.1",
+            "satooshi/php-coveralls": "1.*",
+            "squizlabs/php_codesniffer": "2.*"
+        },
+        "time": "2017-09-19T15:49:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "josegonzalez\\Dotenv": [
+                    "src",
+                    "tests"
+                ]
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jose Diaz-Gonzalez",
+                "email": "dotenv@josegonzalez.com",
+                "homepage": "http://josediazgonzalez.com",
+                "role": "Maintainer"
+            }
+        ],
+        "description": "dotenv file parsing for PHP",
+        "homepage": "https://github.com/josegonzalez/php-dotenv",
+        "keywords": [
+            "configuration",
+            "dotenv",
+            "php"
+        ]
+    },
+    {
         "name": "knplabs/knp-snappy",
         "version": "v1.0.4",
         "version_normalized": "1.0.4.0",
@@ -862,6 +1909,126 @@
             "thumbnail",
             "wkhtmltopdf"
         ]
+    },
+    {
+        "name": "kris/laravel-form-builder",
+        "version": "1.15.1",
+        "version_normalized": "1.15.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kristijanhusak/laravel-form-builder.git",
+            "reference": "5bb1766e90151b67e8c0a07a3492781ed801caf8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kristijanhusak/laravel-form-builder/zipball/5bb1766e90151b67e8c0a07a3492781ed801caf8",
+            "reference": "5bb1766e90151b67e8c0a07a3492781ed801caf8",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/database": "5.*@dev",
+            "illuminate/validation": "5.*@dev",
+            "laravelcollective/html": "5.*",
+            "php": ">=5.6.0"
+        },
+        "require-dev": {
+            "orchestra/testbench": "~3.4",
+            "phpunit/phpunit": "~5.0"
+        },
+        "time": "2018-07-11T10:44:40+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.16.x-dev"
+            },
+            "laravel": {
+                "providers": [
+                    "Kris\\LaravelFormBuilder\\FormBuilderServiceProvider"
+                ],
+                "aliases": {
+                    "FormBuilder": "Kris\\LaravelFormBuilder\\Facades\\FormBuilder"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Kris\\LaravelFormBuilder": "src/"
+            },
+            "classmap": [
+                "tests/FormBuilderTestCase.php"
+            ],
+            "files": [
+                "src/helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kristijan Husak",
+                "email": "husakkristijan@gmail.com"
+            }
+        ],
+        "description": "Laravel form builder - symfony like"
+    },
+    {
+        "name": "laracasts/flash",
+        "version": "3.0.2",
+        "version_normalized": "3.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/laracasts/flash.git",
+            "reference": "10cd420ab63fd0796bf5e1e5b99f87636d2f4333"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/laracasts/flash/zipball/10cd420ab63fd0796bf5e1e5b99f87636d2f4333",
+            "reference": "10cd420ab63fd0796bf5e1e5b99f87636d2f4333",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/support": "~5.0",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "dev-master",
+            "phpunit/phpunit": "^6.1"
+        },
+        "time": "2017-06-22T19:01:19+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Laracasts\\Flash\\FlashServiceProvider"
+                ],
+                "aliases": {
+                    "Flash": "Laracasts\\Flash\\Flash"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Laracasts\\Flash": "src/"
+            },
+            "files": [
+                "src/Laracasts/Flash/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jeffrey Way",
+                "email": "jeffrey@laracasts.com"
+            }
+        ],
+        "description": "Easy flash notifications"
     },
     {
         "name": "laravel/framework",
@@ -1223,6 +2390,66 @@
             "s3",
             "sftp",
             "storage"
+        ]
+    },
+    {
+        "name": "m1/env",
+        "version": "2.1.2",
+        "version_normalized": "2.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/m1/Env.git",
+            "reference": "294addeedf15e1149eeb96ec829f2029d2017d39"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/m1/Env/zipball/294addeedf15e1149eeb96ec829f2029d2017d39",
+            "reference": "294addeedf15e1149eeb96ec829f2029d2017d39",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.*",
+            "scrutinizer/ocular": "~1.1",
+            "squizlabs/php_codesniffer": "^2.3"
+        },
+        "suggest": {
+            "josegonzalez/dotenv": "For loading of .env",
+            "m1/vars": "For loading of configs"
+        },
+        "time": "2018-06-19T18:55:08+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "M1\\Env\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Miles Croxford",
+                "email": "hello@milescroxford.com",
+                "homepage": "http://milescroxford.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "Env is a lightweight library bringing .env file parser compatibility to PHP. In short - it enables you to read .env files with PHP.",
+        "homepage": "https://github.com/m1/Env",
+        "keywords": [
+            ".env",
+            "config",
+            "dotenv",
+            "env",
+            "loader",
+            "m1",
+            "parser",
+            "support"
         ]
     },
     {
@@ -3340,6 +4567,64 @@
             "mail",
             "mailer"
         ]
+    },
+    {
+        "name": "symfony/class-loader",
+        "version": "v3.4.12",
+        "version_normalized": "3.4.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/class-loader.git",
+            "reference": "e63c12699822bb3b667e7216ba07fbcc3a3e203e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/class-loader/zipball/e63c12699822bb3b667e7216ba07fbcc3a3e203e",
+            "reference": "e63c12699822bb3b667e7216ba07fbcc3a3e203e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "require-dev": {
+            "symfony/finder": "~2.8|~3.0|~4.0",
+            "symfony/polyfill-apcu": "~1.1"
+        },
+        "suggest": {
+            "symfony/polyfill-apcu": "For using ApcClassLoader on HHVM"
+        },
+        "time": "2018-01-03T07:37:34+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\ClassLoader\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony ClassLoader Component",
+        "homepage": "https://symfony.com"
     },
     {
         "name": "symfony/console",

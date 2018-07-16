@@ -14,7 +14,11 @@ return array(
     '5255c38a0faeba867671b61dfda6d864' => $vendorDir . '/paragonie/random_compat/lib/random.php',
     'f0906e6318348a765ffb6eb24e0d0938' => $vendorDir . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
     '58571171fd5812e6e447dce228f52f4d' => $vendorDir . '/laravel/framework/src/Illuminate/Support/helpers.php',
+    '3653d17cdef769ab3a943c4825f9866e' => $vendorDir . '/bnbwebexpertise/php-uuid/src/helpers.php',
+    'f18cc91337d49233e5754e93f3ed9ec3' => $vendorDir . '/laravelcollective/html/src/helpers.php',
     '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     '801c31d8ed748cfa537fa45402288c95' => $vendorDir . '/psy/psysh/src/functions.php',
-    'f18cc91337d49233e5754e93f3ed9ec3' => $vendorDir . '/laravelcollective/html/src/helpers.php',
+    '1e848a174fe6a036bf287f7b766a51ca' => $vendorDir . '/edvinaskrucas/settings/src/helpers.php',
+    'd9fc00ffac3dc4b7868e8efb0efdc85c' => $vendorDir . '/kris/laravel-form-builder/src/helpers.php',
+    'e23faeee409e941dc9b4c80386209c39' => $vendorDir . '/laracasts/flash/src/Laracasts/Flash/functions.php',
 );
