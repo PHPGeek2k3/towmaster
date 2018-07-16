@@ -1,0 +1,26 @@
+# Required to run your project under the correct environment.
+language: php
+
+# Versions of PHP you want your project run with.
+php:
+  - 7.0
+  - 7.1
+  - 7.2
+
+addons:
+  code_climate:
+    repo_token: d4952effc6e0e3b3c2aabb5a352bbc97aa1d23f3f7560214f8c145f43ef951b0
+
+notifications:
+  email: false
+
+# Commands to be run before your environment runs.
+before_script:
+  - composer update --no-interaction --no-suggest
+
+# Commands to be run after your environment runs.
+after_script:
+  - vendor/bin/test-reporter
+
+# Commands you want to run that will verify your build.
+script: vendor/bin/phpunit --stderr
