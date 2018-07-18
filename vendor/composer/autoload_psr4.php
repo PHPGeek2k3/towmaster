@@ -15,6 +15,7 @@ return array(
     'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'Watson\\Rememberable\\' => array($vendorDir . '/watson/rememberable/src'),
+    'Watson\\Active\\' => array($vendorDir . '/watson/active/src'),
     'Vinkla\\Hashids\\' => array($vendorDir . '/vinkla/hashids/src'),
     'Tymon\\JWTAuth\\' => array($vendorDir . '/tymon/jwt-auth/src'),
     'Twilio\\' => array($vendorDir . '/twilio/sdk/Twilio'),
@@ -125,6 +126,7 @@ return array(
     'Barryvdh\\LaravelIdeHelper\\' => array($vendorDir . '/barryvdh/laravel-ide-helper/src'),
     'Balping\\JsonRaw\\' => array($vendorDir . '/balping/json-raw-encoder/src'),
     'Awobaz\\Compoships\\' => array($vendorDir . '/awobaz/compoships/src'),
+    'Awobaz\\BladeActive\\' => array($vendorDir . '/awobaz/blade-active/src'),
     'Arrilot\\Widgets\\' => array($vendorDir . '/arrilot/laravel-widgets/src'),
     'App\\' => array($baseDir . '/app'),
 );

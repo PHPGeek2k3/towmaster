@@ -35,6 +35,7 @@ class ComposerStaticInit4438abdf326306dd11cd839cd6250df1
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+        '86ade239cbe8025aa999b5c6eb117f17' => __DIR__ . '/..' . '/watson/active/src/helpers.php',
         '1e848a174fe6a036bf287f7b766a51ca' => __DIR__ . '/..' . '/edvinaskrucas/settings/src/helpers.php',
         'c65d09b6820da036953a371c8c73a9b1' => __DIR__ . '/..' . '/facebook/graph-sdk/src/Facebook/polyfills.php',
         'd9fc00ffac3dc4b7868e8efb0efdc85c' => __DIR__ . '/..' . '/kris/laravel-form-builder/src/helpers.php',
@@ -74,6 +75,7 @@ class ComposerStaticInit4438abdf326306dd11cd839cd6250df1
             'Whoops\\' => 7,
             'Webmozart\\Assert\\' => 17,
             'Watson\\Rememberable\\' => 20,
+            'Watson\\Active\\' => 14,
         ),
         'V' => 
         array (
@@ -241,6 +243,7 @@ class ComposerStaticInit4438abdf326306dd11cd839cd6250df1
         'A' => 
         array (
             'Awobaz\\Compoships\\' => 18,
+            'Awobaz\\BladeActive\\' => 19,
             'Arrilot\\Widgets\\' => 16,
             'App\\' => 4,
         ),
@@ -287,6 +290,10 @@ class ComposerStaticInit4438abdf326306dd11cd839cd6250df1
         'Watson\\Rememberable\\' => 
         array (
             0 => __DIR__ . '/..' . '/watson/rememberable/src',
+        ),
+        'Watson\\Active\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/watson/active/src',
         ),
         'Vinkla\\Hashids\\' => 
         array (
@@ -732,6 +739,10 @@ class ComposerStaticInit4438abdf326306dd11cd839cd6250df1
         array (
             0 => __DIR__ . '/..' . '/awobaz/compoships/src',
         ),
+        'Awobaz\\BladeActive\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/awobaz/blade-active/src',
+        ),
         'Arrilot\\Widgets\\' => 
         array (
             0 => __DIR__ . '/..' . '/arrilot/laravel-widgets/src',
@@ -891,6 +902,7 @@ class ComposerStaticInit4438abdf326306dd11cd839cd6250df1
         'App\\Http\\Controllers\\ImpoundTypesController' => __DIR__ . '/../..' . '/app/Http/Controllers/ImpoundTypesController.php',
         'App\\Http\\Controllers\\ImpoundsController' => __DIR__ . '/../..' . '/app/Http/Controllers/ImpoundsController.php',
         'App\\Http\\Controllers\\PricingRulesController' => __DIR__ . '/../..' . '/app/Http/Controllers/PricingRulesController.php',
+        'App\\Http\\Controllers\\ServiceReasonController' => __DIR__ . '/../..' . '/app/Http/Controllers/ServiceReasonController.php',
         'App\\Http\\Controllers\\ServiceRequestsController' => __DIR__ . '/../..' . '/app/Http/Controllers/ServiceRequestsController.php',
         'App\\Http\\Controllers\\TruckTypesController' => __DIR__ . '/../..' . '/app/Http/Controllers/TruckTypesController.php',
         'App\\Http\\Controllers\\TrucksController' => __DIR__ . '/../..' . '/app/Http/Controllers/TrucksController.php',
@@ -931,6 +943,7 @@ class ComposerStaticInit4438abdf326306dd11cd839cd6250df1
         'Arrilot\\Widgets\\WidgetGroup' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/WidgetGroup.php',
         'Arrilot\\Widgets\\WidgetGroupCollection' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/WidgetGroupCollection.php',
         'Arrilot\\Widgets\\WidgetId' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/WidgetId.php',
+        'Awobaz\\BladeActive\\BladeActiveServiceProvider' => __DIR__ . '/..' . '/awobaz/blade-active/src/BladeActiveServiceProvider.php',
         'Awobaz\\Compoships\\Compoships' => __DIR__ . '/..' . '/awobaz/compoships/src/Compoships.php',
         'Awobaz\\Compoships\\ComposhipsServiceProvider' => __DIR__ . '/..' . '/awobaz/compoships/src/ComposhipsServiceProvider.php',
         'Awobaz\\Compoships\\Database\\Eloquent\\Builder' => __DIR__ . '/..' . '/awobaz/compoships/src/Database/Eloquent/Builder.php',
@@ -8549,6 +8562,10 @@ class ComposerStaticInit4438abdf326306dd11cd839cd6250df1
         'Vinkla\\Hashids\\HashidsFactory' => __DIR__ . '/..' . '/vinkla/hashids/src/HashidsFactory.php',
         'Vinkla\\Hashids\\HashidsManager' => __DIR__ . '/..' . '/vinkla/hashids/src/HashidsManager.php',
         'Vinkla\\Hashids\\HashidsServiceProvider' => __DIR__ . '/..' . '/vinkla/hashids/src/HashidsServiceProvider.php',
+        'Watson\\Active\\Active' => __DIR__ . '/..' . '/watson/active/src/Active.php',
+        'Watson\\Active\\ActiveServiceProvider' => __DIR__ . '/..' . '/watson/active/src/ActiveServiceProvider.php',
+        'Watson\\Active\\Facades\\Active' => __DIR__ . '/..' . '/watson/active/src/Facades/Active.php',
+        'Watson\\Active\\Route' => __DIR__ . '/..' . '/watson/active/src/Route.php',
         'Watson\\Rememberable\\Query\\Builder' => __DIR__ . '/..' . '/watson/rememberable/src/Query/Builder.php',
         'Watson\\Rememberable\\Rememberable' => __DIR__ . '/..' . '/watson/rememberable/src/Rememberable.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',

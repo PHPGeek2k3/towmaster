@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "314eb119803760ba40bc49c6f17dcfa4",
+    "content-hash": "c01faebaf41ec95fc66fa95b32cf4417",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -67,6 +67,65 @@
                 "widgets"
             ],
             "time": "2018-04-15T19:59:08+00:00"
+        },
+        {
+            "name": "awobaz/blade-active",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/topclaudy/blade-active.git",
+                "reference": "3d9eaa8a8aa324ddb18ab2d440905fce30e9de29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/topclaudy/blade-active/zipball/3d9eaa8a8aa324ddb18ab2d440905fce30e9de29",
+                "reference": "3d9eaa8a8aa324ddb18ab2d440905fce30e9de29",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0",
+                "watson/active": "~2.0.6"
+            },
+            "require-dev": {
+                "laravel/laravel": "~5.4",
+                "phpunit/phpunit": "5.*"
+            },
+            "suggest": {
+                "awobaz/compoships": "Multi-columns relationships for Laravel 5's Eloquent",
+                "awobaz/syntactic": "Syntactic sugar for named and indexed parameters call."
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Awobaz\\BladeActive\\BladeActiveServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Awobaz\\BladeActive\\": "src"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Claudin J. Daniel",
+                    "email": "cdaniel@awobaz.com"
+                }
+            ],
+            "description": "Laravel Blade directives for the watson/active package",
+            "keywords": [
+                "active link",
+                "current url",
+                "laravel",
+                "routing"
+            ],
+            "time": "2018-05-28T04:35:20+00:00"
         },
         {
             "name": "awobaz/compoships",
@@ -7885,6 +7944,68 @@
                 "environment"
             ],
             "time": "2018-07-01T10:25:50+00:00"
+        },
+        {
+            "name": "watson/active",
+            "version": "2.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dwightwatson/active.git",
+                "reference": "b29ed98e831d31695279d509167d05c1f57495fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dwightwatson/active/zipball/b29ed98e831d31695279d509167d05c1f57495fe",
+                "reference": "b29ed98e831d31695279d509167d05c1f57495fe",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "~5.2",
+                "illuminate/http": "~5.2",
+                "illuminate/routing": "~5.2",
+                "illuminate/support": "~5.2",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Watson\\Active\\ActiveServiceProvider"
+                    ],
+                    "aliases": {
+                        "Active": "Watson\\Watson\\Facades\\Active"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Watson\\Active\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dwight Watson",
+                    "email": "dwight@studiousapp.com"
+                }
+            ],
+            "description": "Laravel helper for recognising the current route, controller and action",
+            "keywords": [
+                "active",
+                "laravel",
+                "routing"
+            ],
+            "time": "2017-08-26T01:42:01+00:00"
         },
         {
             "name": "watson/rememberable",

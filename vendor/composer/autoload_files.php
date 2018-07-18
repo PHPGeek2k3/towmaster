@@ -34,6 +34,7 @@ return array(
     '2cffec82183ee1cea088009cef9a6fc3' => $vendorDir . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
     '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     '801c31d8ed748cfa537fa45402288c95' => $vendorDir . '/psy/psysh/src/functions.php',
+    '86ade239cbe8025aa999b5c6eb117f17' => $vendorDir . '/watson/active/src/helpers.php',
     '1e848a174fe6a036bf287f7b766a51ca' => $vendorDir . '/edvinaskrucas/settings/src/helpers.php',
     'c65d09b6820da036953a371c8c73a9b1' => $vendorDir . '/facebook/graph-sdk/src/Facebook/polyfills.php',
     'd9fc00ffac3dc4b7868e8efb0efdc85c' => $vendorDir . '/kris/laravel-form-builder/src/helpers.php',
